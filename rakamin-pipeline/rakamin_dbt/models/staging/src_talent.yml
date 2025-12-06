@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: raw_source
+    database: celtic-facility-344813        # Project ID GCP 
+    schema: raw_data                        # BigQuery Dataset
+    tables:
+      - name: competencies_yearly
+      - name: dim_areas
+      - name: dim_companies
+      - name: dim_competency_pillars
+      - name: dim_departments
+      - name: dim_directorates
+      - name: dim_divisions
+      - name: dim_education
+      - name: dim_grades
+      - name: dim_majors
+      - name: dim_positions
+      - name: employees
+      - name: papi_scores
+      - name: performance_yearly
+      - name: profiles_psych
+      - name: strengths

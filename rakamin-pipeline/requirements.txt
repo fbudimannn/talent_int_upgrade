@@ -1,0 +1,10 @@
+# Google Cloud Provider (Sudah mencakup storage, bigquery, secret manager, dll)
+apache-airflow-providers-google
+
+# Data Transformation
+dbt-bigquery
+pandas
+db-dtypes
+
+# Astro Utilities (Wajib ada)
+astro-run-dag

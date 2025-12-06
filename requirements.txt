@@ -1,0 +1,31 @@
+# --- Core App & Visualization ---
+streamlit
+pandas
+numpy
+plotly
+# matplotib & seaborn boleh dihapus kalau dashboard utamanya pakai Plotly (lebih ringan)
+
+# --- Database & Connection ---
+python-dotenv
+SQLAlchemy
+psycopg2-binary  # Untuk koneksi ke Postgres/Supabase
+db-dtypes      # PENTING: Supaya pandas bisa baca tipe data BigQuery dengan benar
+
+# --- AI & LLM ---
+openai
+
+# --- Google Cloud Platform (GCP) ---
+google-cloud-storage
+google-cloud-bigquery
+google-cloud-bigquery-storage
+db-dtypes
+pandas-gbq  # Opsional: Memudahkan upload/download DataFrame ke BigQuery
+
+# --- Data Analysis (Opsional di Env Pipeline) ---
+# jupyter   <-- Biasanya di-install global atau dev environment, tapi boleh dimasukkan
+# ipykernel
+# scipy
+# shap      <-- Hapus jika belum pakai Machine Learning (ML) kompleks
+
+# --- Transformation (dbt) ---
+dbt-bigquery  # Ini menginstall dbt-core sekaligus adapter BigQuery
